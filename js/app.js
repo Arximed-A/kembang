@@ -93,8 +93,8 @@ let slider_about = new Swiper('.slider', {
 	//},
 	// Arrows
 	navigation: {
-		nextEl: '.about__more .more__item_next',
-		prevEl: '.about__more .more__item_prev',
+		nextEl: '.buttons-kembang__direction_next',
+		prevEl: '.buttons-kembang__direction_pre',
 	},
 	/*
 	breakpoints: {
@@ -242,6 +242,7 @@ function body_lock_remove(delay) {
 		}, delay);
 	}
 }
+
 function body_lock_add(delay) {
 	let body = document.querySelector("body");
 	if (unlock) {
@@ -925,6 +926,15 @@ animate({
 // iconMenu.addEventListener("click", function (e) {
 // 	previousElementSiblings.classList.toggle('_active');
 // });
+const headerSize = document.querySelector('.header__container');
+
+console.log(headerSize);
+
+headerSize.addEventListener("scroll", function (e) {
+	headerSize.classList.toggle('_active1');
+	headerSize.classList.add('test');
+});
+
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
 let forms = document.querySelectorAll('form');
 if (forms.length > 0) {
