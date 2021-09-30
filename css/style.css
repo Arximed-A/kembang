@@ -1055,8 +1055,8 @@ body.ie ._ibg img {
   margin: 80px 0px 0px 0px;
 }
 
-.footer__container {
-  padding: 60px 111px 71px;
+.footer__wrapper {
+  margin: 60px 0px 71px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1065,6 +1065,10 @@ body.ie ._ibg img {
           justify-content: space-between;
   font-family: "Work Sans";
   color: #000000;
+}
+
+.footer__container {
+  padding: 0px 111px 0px;
 }
 
 .footer__main {
@@ -1190,6 +1194,7 @@ body.ie ._ibg img {
       -ms-flex: 1 1 672px;
           flex: 1 1 672px;
   padding: 189px 76px 0px;
+  margin: 0px 0px 140px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1321,7 +1326,7 @@ body.ie ._ibg img {
 }
 
 .achive__container {
-  padding: 140px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1563,6 +1568,7 @@ body.ie ._ibg img {
 .get-more__button {
   height: 40px;
   width: 152px;
+  margin: 0px 0px 20px 0px;
 }
 
 .get-more__picture {
@@ -1630,7 +1636,7 @@ body.ie ._ibg img {
   }
 
   .footer__container {
-    padding: 60px 10px 71px;
+    padding: 0px 10px 0px;
   }
 
   .slider__slide {
@@ -1650,6 +1656,7 @@ body.ie ._ibg img {
 
   .kembang__body {
     padding: 150px 0px 0px 0px;
+    margin: 0px 0px 100px 0px;
   }
 
   .kembang__buttons {
@@ -1696,7 +1703,7 @@ body.ie ._ibg img {
     height: 56px;
   }
 
-  .footer__container {
+  .footer__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1810,6 +1817,10 @@ body.ie ._ibg img {
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
     bottom: calc(50% - 1px);
+  }
+
+  .kembang__body {
+    margin: 0px 0px 30px 0px;
   }
 
   .kembang__title {
